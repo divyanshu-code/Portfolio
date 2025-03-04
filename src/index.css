@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Poppins';
+}
+
+#yes{
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
