@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '/public/my.jpg'
+import image from '/public/yes.jpg'
 import {motion} from 'framer-motion'
 
 const Middle = () => {
@@ -14,7 +14,7 @@ const Middle = () => {
             transition={{ duration: 0.7 , delay:0.2}}
         >
           
-          <img src={image} alt="error" id='yes' className='width-[300px] cursor-pointer  shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5  hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]' />
+          <img src={image} alt="error" id='yes' className='width-[300px] cursor-pointer  shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5   hover:shadow-2xl hover:shadow-blue-600 md:w-[350px]' />
 
         </motion.div>
            
@@ -32,7 +32,7 @@ const Middle = () => {
           Let's build something amazing together!
           </p>
 
-           <a href="https://drive.google.com/file/d/1iYxaPZBml1ET6sFKuhdirxF7Qnd1dooK/view?usp=drivesdk  " alt="error" className='bg-indigo-500 rounded-lg  text-sm px-10 py-3 p-5 m-5 top-80 '> Check My Resume</a>
+           <a href="https://drive.google.com/file/d/1iYxaPZBml1ET6sFKuhdirxF7Qnd1dooK/view?usp=drivesdk  " alt="error" className='bg-blue-500 rounded-lg  text-sm px-10 py-3 p-5 m-5 top-80 '> Check My Resume</a>
         </motion.div>
       </div>
     </div>
