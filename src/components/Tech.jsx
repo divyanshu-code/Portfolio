@@ -107,7 +107,7 @@ const Tech = () => {
              variants={variants}
              transition={{ duration: 0.5}}
              >
-               <img src={image} className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[200px]' alt="error" />
+               <img src={image} title='C++' className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[200px]' alt="error" />
              </motion.div>
 
 
