@@ -62,10 +62,10 @@ const Navbar = () => {
       <div className= {`fixed right-0 top-[84px] flex flex-col w-1/2 h-screen border-l border-gray-900  bg-black/70 p-12 gap-10 justify-start items-start ${open ? 'block' : 'hidden'}`}>
         <ul className='flex flex-col gap-8'>
           
-          <a href="#home" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li>Home</li></a>
-          <a href="#tech" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li>Tech</li></a>
-          <a href="#pro" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li>Projects</li></a>
-          <a href="#cont" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li>Contact </li></a>
+          <a href="#home" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li onClick={handleOpen}>Home</li></a>
+          <a href="#tech" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li onClick={handleOpen}>Tech</li></a>
+          <a href="#pro" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li onClick={handleOpen}>Projects</li></a>
+          <a href="#cont" className='cursor-pointer opacity-60  transition-all duration-300 hover:opacity-100'> <li onClick={handleOpen}>Contact </li></a>
         </ul>
 
         <ul className='flex flex-wrap gap-5'>
