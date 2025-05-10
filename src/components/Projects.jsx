@@ -1,7 +1,7 @@
 import React from 'react'
 import image1 from '/public/photo1.png'
 import image2 from '/public/photo2.png'
-import image3 from '/public/photo3.png'
+import image3 from '/public/photo.png'
 import image4 from '/public/photo4.jpg'
 import { motion } from 'framer-motion'
 
