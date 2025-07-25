@@ -14,7 +14,7 @@ const Middle = () => {
             transition={{ duration: 0.7 , delay:0.2}}
         >
           
-          <img src={image} alt="error" id='yes' className='width-[300px] cursor-pointer  shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5   hover:shadow-2xl hover:shadow-blue-600 md:w-[350px]' />
+          <img src={image} alt="error" id='yes' className='width-[300px] cursor-pointer  shadow-xl shadow-indigo-900 transition-all duration-300  hover:-translate-y-5 hover:shadow-2xl hover:shadow-blue-600 md:w-[350px]' />
 
         </motion.div>
            
@@ -27,12 +27,12 @@ const Middle = () => {
           <h1 className='bg-gradient-to-r from-blue-600 to-red-600  bg-clip-text text-transparent  text-5xl font-light md:text-7xl'>Divyanshu</h1>
           <h3 className='bg-gradient-to-r from-red-600 to-blue-600  bg-clip-text text-transparent  text-xl font-light md:text-3xl'> Software Engineer</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>
-          I’m a passionate about software engineer with a strong foundation in designing, developing. I love turning complex problems into efficient, user-friendly solutions. With expertise in javascript , React , Node.js etc. I enjoy building seamless digital experiences that make an impact.
+          I'm a passionate about software engineer with a strong foundation in designing, developing. I love turning complex problems into efficient, user-friendly solutions. With expertise in javascript , React , Node.js etc.
           I enjoy collaborating with teams, learning new technologies, and continuously improving my skills to stay ahead in the ever-evolving tech landscape.
           Let's build something amazing together!
           </p>
 
-           <a href="https://drive.google.com/file/d/1wTK7k7cuIpTzvqFxGx9ofKvLW7TeR6Al/view?usp=drivesdk " alt="error" className='bg-blue-500 rounded-lg  text-sm px-10 py-3 p-5 m-5 top-80 '> Check My Resume</a>
+           <a href=" https://drive.google.com/file/d/100asl1APm4_lNUkBlMBazJkbVX4st_ZC/view?usp=drivesdk " alt="error" className='bg-blue-500 rounded-lg  text-sm px-10 py-3 p-5 m-5 top-80 opacity-60 hover:opacity-100 '> Check My Resume </a>
         </motion.div>
       </div>
     </div>
