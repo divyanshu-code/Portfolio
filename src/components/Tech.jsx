@@ -9,6 +9,10 @@ import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import image from '/public/icons8-c++-48.png'
 import {motion} from 'framer-motion'
+import { FaGitAlt } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { SiPostman } from 'react-icons/si';
+import { TbBrandFramerMotion } from 'react-icons/tb';
 
 const Tech = () => {
 
@@ -24,7 +28,7 @@ const Tech = () => {
         whileInView='visible'
         variants={variants}
         transition={{ duration: 0.5}}
-       className='text-4xl font-light text-white md:text-6xl'>Technologies</motion.h1>
+       className='text-4xl font-light text-white md:text-6xl'>Tools & Technologies</motion.h1>
 
         <div className='flex flex-wrap gap-10 items-center justify-center p-10'>
             
@@ -108,6 +112,42 @@ const Tech = () => {
              transition={{ duration: 0.5}}
              >
                <img src={image} title='C++' className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[200px]' alt="error" />
+             </motion.div>
+
+              <motion.div
+             initial='hidden'
+             whileInView='visible'
+             variants={variants}
+             transition={{ duration: 0.5}}
+             >
+             <FaGitAlt className='cursor-pointer text-[80px] text-orange-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[100px]' title='Git' />
+             </motion.div>
+
+              <motion.div
+             initial='hidden'
+             whileInView='visible'
+             variants={variants}
+             transition={{ duration: 0.5}}
+             >
+             <FaGithub className='cursor-pointer text-[70px] text-white transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[100px]' title='GitHub' />
+             </motion.div>
+
+              <motion.div
+             initial='hidden'
+             whileInView='visible'
+             variants={variants}
+             transition={{ duration: 0.5}}
+             >
+             <SiPostman className='cursor-pointer text-[70px] text-orange-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[100px]' title='Postman' />
+             </motion.div>
+
+              <motion.div
+             initial='hidden'
+             whileInView='visible'
+             variants={variants}
+             transition={{ duration: 0.5}}
+             >
+             <TbBrandFramerMotion className='cursor-pointer text-[70px] bg-gradient-to-r from-pink-600 to-blue-600 rounded-full transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[100px]' title='Framer-Motion' />
              </motion.div>
 
 
