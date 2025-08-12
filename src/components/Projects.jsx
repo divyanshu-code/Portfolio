@@ -56,7 +56,7 @@ const ProjectCard = ({ project }) => {
          viewport={{ once: true }}
          transition={{ duration: 0.8 }}
 
-         className='flex flex-col gap-15 items-center md:flex-row md:gap-24 '>
+         className='flex flex-col gap-3 items-center md:flex-row md:gap-24 '>
          <img src={project.image} alt="error" className='w-full cursor-pointer rounded-2xl transition-all duration-300
         hover:scale-105 md:w-[300px]'/>
 
