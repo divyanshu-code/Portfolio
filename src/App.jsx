@@ -14,7 +14,9 @@ const App = () => {
       <Navbar/>
       <Middle/>
       <Tech/>
-      <Projects/>
+      <div className='mt-32 md:mt-10'>
+          <Projects/>
+      </div>
       <Contact/>
 
     </main>
