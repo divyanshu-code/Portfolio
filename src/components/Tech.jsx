@@ -28,7 +28,7 @@ const Tech = () => {
         whileInView='visible'
         variants={variants}
         transition={{ duration: 0.5}}
-       className='text-3xl font-light text-white md:text-6xl'>Tools & Technologies</motion.h1>
+       className='text-[8vw] font-light text-white md:text-6xl'>Tools & Technologies</motion.h1>
 
         <div className='flex flex-wrap gap-10 items-center justify-center p-10'>
             
