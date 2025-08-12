@@ -13,7 +13,9 @@ const App = () => {
       
       <Navbar/>
       <Middle/>
-      <Tech/>
+       <div className='md:mt-24'>
+          <Tech/>
+       </div>
       <div className='mt-32 md:mt-10'>
           <Projects/>
       </div>
