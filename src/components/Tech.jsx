@@ -21,14 +21,14 @@ const Tech = () => {
         visible: { opacity: 1 , y:0},
       }
   return (
-    <div id='tech' className=' flex min-h-[90vh] w-full flex-col items-center justify-center gap-16 md:gap-32 '>
+    <div id='tech' className=' flex min-h-[90vh] w-full flex-col items-center justify-center gap-14 md:gap-32 '>
        
        <motion.h1
         initial='hidden'
         whileInView='visible'
         variants={variants}
         transition={{ duration: 0.5}}
-       className='text-4xl font-light text-white md:text-6xl'>Tools & Technologies</motion.h1>
+       className='text-3xl font-light text-white md:text-6xl'>Tools & Technologies</motion.h1>
 
         <div className='flex flex-wrap gap-10 items-center justify-center p-10'>
             
