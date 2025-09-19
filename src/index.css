@@ -7,6 +7,10 @@
   background-color: black;
 }
 
+body {
+  cursor: none;
+}
+
 #yes{
   border-radius: 50%;
 }

@@ -4,11 +4,14 @@ import Middle from './components/Middle'
 import Tech from './components/Tech'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import CustomCursor from './components/CustomCursor'
 
 const App = () => {
   return (
 
     <>
+     
+      <CustomCursor/>
       <main className='flex flex-col items-center px-4 md:px-8 lg:px-16'>
 
         <Navbar />
